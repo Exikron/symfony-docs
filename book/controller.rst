@@ -4,7 +4,7 @@
 Controller
 ==========
 
-A controller is a PHP callable you create that takes information from the
+A controller is a PHP callable seyou create that takes information from the
 HTTP request and constructs and returns an HTTP response (as a Symfony
 ``Response`` object). The response could be an HTML page, an XML document,
 a serialized JSON array, an image, a redirect, a 404 error or anything else
@@ -451,7 +451,7 @@ Or, if you want to redirect externally, just use ``redirect()`` and pass it the 
     }
 
 By default, the ``redirectToRoute()`` method performs a 302 (temporary) redirect. To
-perform a 301 (permanent) redirect, modify the second argument::
+perform a 301 (permanent) redirect, modify the third argument::
 
     public function indexAction()
     {
