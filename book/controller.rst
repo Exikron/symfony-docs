@@ -9,7 +9,7 @@ HTTP request and creates and returns an HTTP response (as a Symfony
 ``Response`` object). The response could be an HTML page, an XML document,
 a serialized JSON array, an image, a redirect, a 404 error or anything else
 you can dream up. The controller contains whatever arbitrary logic *your
-application* needs to render the content of a page.
+application* needs to render the content of a page. 
 
 See how simple this is by looking at a Symfony controller in action.
 This renders a page that prints the famous ``Hello world!``::
